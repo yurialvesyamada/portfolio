@@ -8,17 +8,22 @@ iframe {
     height: 150vh;
 }
 
-
-li {
-    list-style-type: none;
+ul {
+    padding-left: 0;
 }
 
-.link-white li a {
+a,
+li,
+ul {
+    color: white;
+    list-style-type: none;
+    text-decoration: none
+}
 
+a:link {
     color: white;
 }
 
-.link-white ul {
-    list-style-type: none;
-    padding-left: 0;
+a:hover {
+    color: white;
 }
