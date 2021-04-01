@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-success py-4">
         <div class="container-fluid">
             <a class="navbar-brand text-light" href="index.html">Yuri Alves Yamada</a>
@@ -50,8 +51,10 @@
             </div>
         </div>
     </nav>
+    <!-- End Navbar  -->
 
-    <div class="text-center container-fluid">
+    <!-- Body  -->
+    <div class="text-center container-fluid logos">
         <h1 class="h1 py-5 text-success">Projetos Recode Pro</h1>
 
         <div class="container mx-auto">
@@ -61,7 +64,7 @@
                         <div class="card-header bg-light">
                             <a href="http://novatrilha.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">
                                 <img src="./assets/img/nova-trilha-logo.png" alt="Nova Trilha"
-                                    title="© 2020 Nova Trilha. Todos os Direitos Reservados." class="card-img-top w-50">
+                                    title="© 2020 Nova Trilha. Todos os Direitos Reservados." class="card-img-top">
                             </a>
                         </div>
                         <div class="card-body">
@@ -72,7 +75,8 @@
                                 contemplando a ODS-8 que se refere a "Promover o crescimento econômico sustentado,
                                 inclusivo e
                                 sustentável, emprego pleno e produtivo, e trabalho decente para todos". Sendo 1 dos
-                                <a href="http://www.agenda2030.com.br/" target="_blank" rel="noopener noreferrer">17
+                                <a href="http://www.agenda2030.com.br/" target="_blank" rel="noopener noreferrer"
+                                    class="text-dark">17
                                     Objetivos de Desenvolvimento Sustentável da
                                     ONU.</a> Desenvolvido e
                                 idealizado pelo Squad 03
@@ -103,7 +107,7 @@
                             <a href="http://infotec.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">
                                 <img src="./assets/img/infotec-logo.png" alt="InfoTec"
                                     title="© 2020 InfoTec. Todos os Direitos Reservados."
-                                    class="card-img-top w-50 rounded shadow-sm">
+                                    class="card-img-top shadow-sm">
                             </a>
                         </div>
                         <div class="card-body">
@@ -150,7 +154,56 @@
             </div>
         </div>
 
-        <h1 class="h1 text-success">Nova Trilha</h1>
+        <!-- SKILLS -->
+        <div class="my-5 text-light" id="skills">
+            <div class="row py-5">
+                <div class="col-lg-12">
+                    <div class="skills-text mx-auto">
+                        <h1 class="pb-5">SKILLS</h1>
+                        <dl class="skills-list">
+                            <h2 class="pb-4">Front-End</h2>
+                            <dt class="skill-name">HTML</dt>
+                            <dd class="skill-percent skill-percent-html" data-percent="95%"></dd>
+                            <dt class="skill-name">CSS</dt>
+                            <dd class="skill-percent skill-percent-css" data-percent="85%"></dd>
+                            <dt class="skill-name">JavaScript</dt>
+                            <dd class="skill-percent skill-percent-javascript" data-percent="75%"></dd>
+                            <h2 class="py-4">Back-End</h2>
+                            <dt class="skill-name">PHP</dt>
+                            <dd class="skill-percent skill-percent-php" data-percent="80%"></dd>
+                            <dt class="skill-name">Node.Js</dt>
+                            <dd class="skill-percent skill-percent-nodejs" data-percent="45%"></dd>
+                            <dt class="skill-name">Python</dt>
+                            <dd class="skill-percent skill-percent-python" data-percent="50%"></dd>
+                            <h2 class="py-4">Banco de Dados</h2>
+                            <dt class="skill-name">MySQL</dt>
+                            <dd class="skill-percent skill-percent-mysql" data-percent="80%"></dd>
+                            <dt class="skill-name">MongoDB</dt>
+                            <dd class="skill-percent skill-percent-mongodb" data-percent="50%"></dd>
+                            <h2 class="py-4">Frameworks</h2>
+                            <dt class="skill-name">Bootstrap</dt>
+                            <dd class="skill-percent skill-percent-bootstrap" data-percent="95%"></dd>
+                            <dt class="skill-name">React Native</dt>
+                            <dd class="skill-percent skill-percent-react-native" data-percent="70%"></dd>
+                            <h2 class="py-4">Bibliotecas</h2>
+                            <dt class="skill-name">React.Js</dt>
+                            <dd class="skill-percent skill-percent-react" data-percent="90%"></dd>
+                            <h2 class="py-4">Controle de Versões</h2>
+                            <dt class="skill-name">GIT</dt>
+                            <dd class="skill-percent skill-percent-git" data-percent="90%"></dd>
+                            <h2 class="py-4">Sistemas Operacionais</h2>
+                            <dt class="skill-name">Linux</dt>
+                            <dd class="skill-percent skill-percent-linux" data-percent="85%"></dd>
+                            <dt class="skill-name">Windows</dt>
+                            <dd class="skill-percent skill-percent-windows" data-percent="90%"></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vídeo Nova Trilha -->
+        <h1 class="h1 text-success">Pitch Nova Trilha</h1>
         <div class="embed-responsive embed-responsive-21by9 py-5">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6JY0n-GCaxw" allow="accelerometer"
                 frameborder="0" allowfullscreen></iframe>
@@ -159,13 +212,14 @@
     </div>
 </body>
 
+<!-- Footer Top -->
 <div class="container-fluid py-5 bg-success text-light">
     <div class="row text-center py-5">
         <div class="col-6">
             <h2 class="text-light pb-4 h2">Páginas</h2>
             <ul>
                 <li class="pb-2">
-                    <a href="index.html">Home</a>
+                    <h4><a href="index.html">Home</a></h4>
                 </li>
                 <!-- <li class="pb-2">
                     <a href="./assets/docs/linkedin.pdf" download="linkedin.pdf" target="_blank"
@@ -199,19 +253,12 @@
     </div>
 </div>
 
-
-
-
 <footer class="bg-dark py-3 text-center text-light">
     <a href="https://www.linkedin.com/in/yuri-alves-yamada-804076188/" target="_blank" rel="noopener noreferrer">Yuri
         Alves Yamada</a> | © 2021 Portfólio. Todos os Direitos Reservados.
 </footer>
 
-
-
-
-
-
+<!-- Scripts CDN -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
 </script>
@@ -221,5 +268,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
     integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
 </script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<script src="./assets/js/index.js" crossorigin="anonymous"></script>
 
 </html>
