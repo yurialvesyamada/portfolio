@@ -1,8 +1,6 @@
 body {
-    /*   background-image: linear-gradient(#a1c4fd , #c2e9fb); */
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /*     height: auto; */
 }
 
 nav,
@@ -10,8 +8,15 @@ nav,
     background-image: linear-gradient(#13547a, #80d0c7);
 }
 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 .navbar-nav {
-    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
 }
 
 iframe {
@@ -156,4 +161,59 @@ a:hover {
 
 .skill-percent-windows {
     background-color: #00ADEF;
+}
+
+/* Scroll Button */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    z-index: 99;
+    width: 5vw;
+    border-radius: 5%;
+    outline: none;
+    background-image: linear-gradient(#13547a, #80d0c7);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid whitesmoke;
+}
+
+#myBtn:hover {
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 1200px) {
+    #myBtn {
+        width: 6vw;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #myBtn {
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #myBtn {
+        width: 10vw;
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    #myBtn {
+        width: 14%;
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #myBtn {
+        width: 16%;
+        bottom: 8%;
+    }
 }

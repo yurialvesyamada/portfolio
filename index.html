@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <title>Projetos</title>
+    <title>Yuri Alves Yamada</title>
 </head>
 
 <body>
@@ -21,39 +21,55 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav" id="navbarNavDarkDropdown">
+
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
                     </li>
+                </ul>
+
+                <!--  <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Sobre Mim</a>
+                    </li>
                 </ul> -->
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page"
-                            href="./assets/docs/badges-yurialvesyamada.pdf" download="badges-yurialvesyamada.pdf"
-                            target="_blank" rel="noopener noreferrer">Badges</a>
-                    </li>
-                </ul>
 
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page"
-                            href="./assets/docs/yurialvesyamada.pdf" download="yurialvesyamada.pdf" target="_blank"
-                            rel="noopener noreferrer">Currículo</a>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page"
-                            href="./assets/docs/Resultado Talent Academy.pdf" download="Resultado Talent Academy.pdf"
-                            target="_blank" rel="noopener noreferrer">Talent Academy</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Downloads
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="./assets/docs/badges-yurialvesyamada.pdf"
+                                    download="badges-yurialvesyamada.pdf" target="_blank"
+                                    rel="noopener noreferrer">Badges</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./assets/docs/yurialvesyamada.pdf"
+                                    download="yurialvesyamada.pdf" target="_blank"
+                                    rel="noopener noreferrer">Currículo</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./assets/docs/Resultado Talent Academy.pdf"
+                                    download="Resultado Talent Academy.pdf" target="_blank"
+                                    rel="noopener noreferrer">Talent Academy</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active text-light" aria-current="page" href="#skills">Skills</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#contact">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -78,7 +94,7 @@
                                 <img src="assets/img/nova-trilha-logo.png" alt="Nova Trilha PNG" title="Nova Trilha">
                             </a>
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-sm-12 col-md-9 col-lg-9">
                             <div class="card-body">
                                 <h3 class="card-title py-2">Nova Trilha</h3>
                                 <p class="card-text">Nova Trilha é um programa voltado para empregabilidade com
@@ -110,7 +126,7 @@
                                 <img src="assets/img/infotec-logo.png" alt="InfoTec PNG" title="InfoTec">
                             </a>
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-sm-12 col-md-9 col-lg-9">
                             <div class="card-body">
                                 <h3 class="card-title py-2">InfoTec</h3>
                                 <p class="card-text"> InfoTec é um Projeto de E-commerce com produtos voltados para
@@ -118,8 +134,8 @@
                                     durante o Recode Pro 2020, com o objetivo de desenvolver e aprimorar habilidades
                                     como
                                     Desenvolvedor FullStack Júnior.</p>
-                                </div>
-                                <h5 class="text-info pt-4">Tecnologias Utilizadas:</h5>
+                            </div>
+                            <h5 class="text-info pt-4">Tecnologias Utilizadas:</h5>
                             <div class="row py-4">
                                 <div class="col-4 col-sm-2 col-md-4 col-lg-2 py-2">
                                     <i class="fab fa-html5 fa-3x text-danger" title="HTML5"></i>
@@ -204,40 +220,48 @@
         </div>
 
     </div>
+
+    <!-- Footer Top -->
+    <section class="container-fluid py-5 text-light gradient">
+        <div class="row py-5">
+            <div class="col-sm-12 col-lg-6">
+                <h2 class="text-light pb-4 h2">Páginas</h2>
+                <ul>
+                    <li class="pb-2">
+                        <h4><a href="index.html">Home</a></h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <h2 class="text-light pb-4 h2" id="contact">Contato</h2>
+                <a href="https://www.linkedin.com/in/yuri-alves-yamada-804076188/" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fab fa-linkedin fa-3x text-light px-2" title="Linkedin"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5511948756799&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Meu%20nome%20%C3%A9%20%5Bnome%5D%2C%20irei%20fazer%20o%20seu%20atendimento%20hoje.%20Me%20conta%20como%20posso%20ajudar%20voc%C3%AA%20hoje!"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp fa-3x text-light px-2" title="WhatsApp"></i>
+                </a>
+                <a href="mailto:yurialvesyamada@hotmail.com" target="_blank" rel="noopener noreferrer">
+                    <i class="far fa-envelope fa-3x text-light px-2" title="E-mail"></i>
+                </a>
+                <a href="https://github.com/yurialvesyamada" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github fa-3x text-light px-2" title="GitHub"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-chevron-up fa-2x"></i>
+    </button>
+
+    <footer class="bg-dark py-3 text-center text-light">
+        <a href="https://www.linkedin.com/in/yuri-alves-yamada-804076188/" target="_blank"
+            rel="noopener noreferrer">Yuri
+            Alves Yamada</a> | © 2021 Portfólio. Todos os Direitos Reservados.
+    </footer>
 </body>
-
-<!-- Footer Top -->
-<section class="container-fluid py-5 text-light gradient">
-    <div class="row py-5">
-        <div class="col-sm-6 col-lg-6">
-            <h2 class="text-light pb-4 h2">Páginas</h2>
-            <ul>
-                <li class="pb-2">
-                    <h4><a href="index.html">Home</a></h4>
-                </li>
-            </ul>
-        </div>
-        <div class="col-sm-6 col-lg-6">
-            <h2 class="text-light pb-4 h2">Contato</h2>
-            <a href="https://www.linkedin.com/in/yuri-alves-yamada-804076188/" target="_blank"
-                rel="noopener noreferrer">
-                <i class="fab fa-linkedin fa-3x text-primary text-light px-1" title="Linkedin"></i>
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=5511948756799&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Meu%20nome%20%C3%A9%20%5Bnome%5D%2C%20irei%20fazer%20o%20seu%20atendimento%20hoje.%20Me%20conta%20como%20posso%20ajudar%20voc%C3%AA%20hoje!"
-                target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-whatsapp fa-3x text-primary text-light px-1" title="WhatsApp"></i>
-            </a>
-            <a href="https://github.com/yurialvesyamada" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github fa-3x text-primary text-light px-1" title="GitHub"></i>
-            </a>
-        </div>
-    </div>
-</section>
-
-<footer class="bg-dark py-3 text-center text-light">
-    <a href="https://www.linkedin.com/in/yuri-alves-yamada-804076188/" target="_blank" rel="noopener noreferrer">Yuri
-        Alves Yamada</a> | © 2021 Portfólio. Todos os Direitos Reservados.
-</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
     integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
