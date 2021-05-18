@@ -62,7 +62,7 @@ a:hover {
 }
 
 .card img {
-    width: 40vh;
+    width: 38vh;
     margin: 2%;
     border-radius: 5%;
 }
@@ -177,24 +177,27 @@ a:hover {
 /* Scroll Button */
 
 #myBtn {
+    text-align: center;
     display: none;
     position: fixed;
     bottom: 4%;
     right: 2%;
     z-index: 99;
     width: 5%;
-    border-radius: 5%;
+    margin: auto;
     outline: none;
-    /*  background-image: linear-gradient(#13547a, #80d0c7); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     background: cadetblue;
     color: white;
     cursor: pointer;
     padding: 15px;
+    border-radius: 6%;
     border: 2px solid whitesmoke;
 }
 
 #myBtn:hover {
-    color: black;
+    color: lightgrey;
+    border: 2px solid lightgrey;
 }
 
 @media screen and (max-width: 1200px) {
@@ -225,9 +228,16 @@ a:hover {
 
 @media screen and (max-width: 420px) {
     #myBtn {
-        width: 16%;
-        bottom: 16%;
+        width: 17%;
+        bottom: 14%;
         right: 3%;
+    }
+
+    .card img {
+        width: 25vh;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 5%;
     }
 }
 
