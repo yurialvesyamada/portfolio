@@ -21,14 +21,13 @@ nav,
 }
 
 .navbar-nav {
-    padding-left: 2%;
-    padding-right: 2%;
     font-size: 20px;
 }
 
 
 .redes a:hover {
-    color: lightgray;
+    filter: drop-shadow(0 0 0.10rem black);
+    zoom: 120%;
 }
 
 footer {
@@ -63,23 +62,28 @@ a:hover {
 /* Cards */
 
 .card {
-    border-radius: 7px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
     background-position: center;
     background-size: cover;
     background-clip: border-box;
+    border: 1px solid whitesmoke;
 }
 
 .card img {
-    width: 45%;
+    width: 40%;
     margin: 8% auto;
+    border-radius: 10px;
 }
 
-/* .card_image img {
-     width: 20%;
-    filter: drop-shadow(1px 1px 1px #111);
-} */
+.card-title {
+    filter: drop-shadow(5px 5px 30px #666);
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 /* SKILLS */
 

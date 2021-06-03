@@ -15,7 +15,7 @@
 <body>
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-light py-4">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand text-light" href="index.html">Yuri Alves Yamada</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,15 +72,13 @@
     <!-- End Navbar  -->
 
     <!-- Body  -->
-
-    <header>
-        <h1 class="h1 py-5">Projetos</h1>
-    </header>
-
     <main>
-        <section class="container-fluid">
+        <section class="container-fluid bg-dark py-5">
+            <header>
+                <h1 class="h1 text-light pb-5">Projetos</h1>
+            </header>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4 mx-auto">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-5 mx-auto">
                 <div class="col">
                     <div class="card h-100">
                         <a href="http://novatrilha.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">
@@ -88,18 +86,15 @@
                                 title="Nova Trilha">
                         </a>
                         <div class="card-body">
-                            <h3 class="card-title pb-4">Nova Trilha</h3>
+                            <h2 class="card-title pb-4">Nova Trilha</h2>
                             <p class="card-text">Nova Trilha é um programa voltado para empregabilidade com
                                 exclusividade para egressas do sistema prisional. Seu objetivo é proporcionar
                                 oportunidades para que egressas possam se recolocar no mercado de trabalho e na
                                 sociedade.
-                                O programa trabalha com viés social contemplando a ODS-8, que refere-se a “Promover o
+                                <!--  O programa trabalha com viés social contemplando a ODS-8, que refere-se a “Promover o
                                 crescimento econômico sustentado, inclusivo e sustentável, emprego pleno e produtivo, e
                                 trabalho decente para todos.”
-                                Desenvolvido e idealizado pelo SQUAD-3 SPM
-                                <a href="https://www.recodepro.org.br/" target="_blank" rel="noopener noreferrer"
-                                    class="text-success"> Recode Pro </a> 2020.
-                            </p>
+                                Desenvolvido e idealizado pelo SQUAD-3 SPM -->
                         </div>
                         <div class="card-footer">
                             <div class="dropdown">
@@ -109,8 +104,8 @@
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item" href="http://novatrilha.infinityfreeapp.com/"
-                                            target="_blank" rel="noopener noreferrer">Site
-                                            Nova Trilha</a></li>
+                                            target="_blank" rel="noopener noreferrer">Site Nova Trilha</a>
+                                    </li>
                                     <li><a class="dropdown-item" href="#">O Programa</a></li>
                                     <li><a class="dropdown-item" href="#contact">Contato</a></li>
                                 </ul>
@@ -120,28 +115,45 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
+                        <a href="http://infotec.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/infotec-logo.png" class="card-img-top" alt="InfoTec" title="InfoTec">
+                        </a>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <h2 class="card-title pb-4">InfoTec</h2>
+                            <p class="card-text">InfoTec é um projeto de E-commerce com produtos voltados para
+                                tecnologia, E seu objetivo incial é por em pratica conhecimentos adquiridos através de
+                                Cursos e Experiências para desenvolver soluções de qualidade, com boas práticas e
+                                profissionalismo.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle col-12 col-lg-6" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ver mais
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="http://infotec.infinityfreeapp.com/"
+                                            target="_blank" rel="noopener noreferrer">Site InfoTec</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Sobre</a></li>
+                                    <li><a class="dropdown-item" href="#contact">Contato</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="Nova Trilha PNG">
+                        <img src="assets/img/code.png" class="card-img-top" alt="Código Fonte PNG"
+                            title="Front-end Tricks">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
+                            <h2 class="card-title pb-4">Front-end Tricks</h2>
+                            <p class="card-text">Front-end Tricks são projetos e exercícios na qual são aplicadas
+                                diferentes técnicas e conceitos para solucionar diversos problemas do Desenvolvimento
+                                Web.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <p class="text-muted">Em Desenvolvimento</p>
                         </div>
                     </div>
                 </div>
@@ -283,7 +295,7 @@
     </div>
 
     <!-- Footer Top -->
-    <section class="container-fluid py-5 text-light footer_top">
+    <article class="container-fluid py-5 text-light footer_top">
         <div class="row py-5">
 
             <div class="col-sm-12 col-lg-6">
@@ -313,14 +325,14 @@
                 </a>
             </div>
         </div>
-    </section>
+    </article>
 
     <!-- Button Scroll top page -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         <i class="fas fa-chevron-up fa-2x"></i>
     </button>
 
-    <footer class="py-3 text-center text-light">
+    <footer class="py-3 text-light">
         <a href="https://www.linkedin.com/in/yuri-alves-yamada-804076188/" target="_blank"
             rel="noopener noreferrer">Yuri
             Alves Yamada</a> | © 2021 Portfólio. Todos os Direitos Reservados.
