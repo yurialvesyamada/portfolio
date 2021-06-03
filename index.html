@@ -29,12 +29,6 @@
                     </li>
                 </ul>
 
-                <!--  <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Sobre Mim</a>
-                    </li>
-                </ul> -->
-
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink"
@@ -84,8 +78,77 @@
     </header>
 
     <main>
-        <section class="container-fluid mx-auto">
-            <div class="card mb-5">
+        <section class="container-fluid">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 mx-auto">
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="http://novatrilha.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/img/nova-trilha-logo.png" class="card-img-top" alt="Nova Trilha PNG"
+                                title="Nova Trilha">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title pb-4">Nova Trilha</h3>
+                            <p class="card-text">Nova Trilha é um programa voltado para empregabilidade com
+                                exclusividade para egressas do sistema prisional. Seu objetivo é proporcionar
+                                oportunidades para que egressas possam se recolocar no mercado de trabalho e na
+                                sociedade.
+                                O programa trabalha com viés social contemplando a ODS-8, que refere-se a “Promover o
+                                crescimento econômico sustentado, inclusivo e sustentável, emprego pleno e produtivo, e
+                                trabalho decente para todos.”
+                                Desenvolvido e idealizado pelo SQUAD-3 SPM
+                                <a href="https://www.recodepro.org.br/" target="_blank" rel="noopener noreferrer"
+                                    class="text-success"> Recode Pro </a> 2020.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle col-12 col-lg-6" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ver mais
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="http://novatrilha.infinityfreeapp.com/"
+                                            target="_blank" rel="noopener noreferrer">Site
+                                            Nova Trilha</a></li>
+                                    <li><a class="dropdown-item" href="#">O Programa</a></li>
+                                    <li><a class="dropdown-item" href="#contact">Contato</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="Nova Trilha PNG">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  <div class="card">
                 <div class="row g-0">
                     <div class="col-sm-12 col-md-3 col-lg-3 my-auto">
                         <a href="http://novatrilha.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer">
@@ -94,7 +157,7 @@
                     </div>
                     <div class="col-sm-12 col-md-9 col-lg-9">
                         <div class="card-body">
-                            <h2 class="card-title py-2">Nova Trilha</h2>
+                            <h2 class="card-title">Nova Trilha</h2>
                             <p class="card-text">Nova Trilha é um programa voltado para empregabilidade com
                                 exclusividade para egressas do sistema prisional, seu maior objetivo é o viés social
                                 contemplando a ODS-8 que se refere a "Promover o crescimento econômico sustentado,
@@ -109,7 +172,7 @@
                                     target="_blank" rel="noopener noreferrer" class="text-info">Recode Pro</a> 2020.</p>
 
                         </div>
-                        <div class="card_image py-4">
+                        <div class="card_image">
                             <h3>Parceiros</h3>
                             <a href="https://www.recodepro.org.br/" target="_blank" rel="noopener noreferrer">
                                 <img src="./assets/img/logo_recomecar.87e77c91.png" alt="Recode" title="Recode">
@@ -128,7 +191,7 @@
                     </div>
                     <div class="col-sm-12 col-md-9 col-lg-9">
                         <div class="card-body">
-                            <h2 class="card-title py-2">InfoTec</h2>
+                            <h2 class="card-title">InfoTec</h2>
                             <p class="card-text"> InfoTec é um Projeto de E-commerce com produtos voltados para
                                 tecnologia iniciado
                                 durante o Recode Pro 2020, com o objetivo de desenvolver e aprimorar habilidades
@@ -158,8 +221,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </div> -->
+
     </main>
     <!-- SKILLS -->
 
@@ -264,11 +327,18 @@
     </footer>
 </body>
 
+<!-- Development version -->
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+<!-- Production version -->
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
     integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
 </script>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
 <script src="./assets/js/index.js" crossorigin="anonymous"></script>
+
 
 </html>
