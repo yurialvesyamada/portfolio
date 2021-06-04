@@ -16,7 +16,7 @@
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-light py-4">
         <div class="container">
-            <a class="navbar-brand text-light" href="index.html">Yuri Alves Yamada</a>
+            <a class="navbar-brand" href="index.html">Yuri Alves Yamada</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,14 +25,14 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDarkDropdownMenuLink"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Downloads
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -57,13 +57,13 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#skills">Skills</a>
+                        <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#contact">Contato</a>
+                        <a class="nav-link active" aria-current="page" href="#contact">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -73,9 +73,19 @@
 
     <!-- Body  -->
     <main>
+        <!--   <section class="container-fluid py-5">
+            <header class="row">
+                <h1>Sobre Mim</h1>
+            </header>
+
+
+        </section> -->
+
+
+
         <section class="container-fluid bg-dark py-5">
             <header>
-                <h1 class="h1 text-light pb-5">Projetos</h1>
+                <h1 class="text-light pb-5">Projetos</h1>
             </header>
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-5 mx-auto">
@@ -106,7 +116,11 @@
                                     <li><a class="dropdown-item" href="http://novatrilha.infinityfreeapp.com/"
                                             target="_blank" rel="noopener noreferrer">Site Nova Trilha</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="#">O Programa</a></li>
+                                    <li><a class="dropdown-item" href="#pitch">O Programa</a></li>
+                                    <li><a class="dropdown-item" href="https://github.com/yurialvesyamada/nova-trilha"
+                                            target="_blank" rel="noopener noreferrer">Código Fonte</a></li>
+                                    <li><a class="dropdown-item" href="assets/docs/nova-trilha-doc.pdf"
+                                            download="nova-trilha-doc">PDF</a></li>
                                     <li><a class="dropdown-item" href="#contact">Contato</a></li>
                                 </ul>
                             </div>
@@ -136,6 +150,10 @@
                                             target="_blank" rel="noopener noreferrer">Site InfoTec</a>
                                     </li>
                                     <li><a class="dropdown-item" href="#">Sobre</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://github.com/yurialvesyamada/infotec-react2.0" target="_blank"
+                                            rel="noopener noreferrer">Código Fonte</a>
+                                    </li>
                                     <li><a class="dropdown-item" href="#contact">Contato</a></li>
                                 </ul>
                             </div>
@@ -144,7 +162,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="assets/img/code.png" class="card-img-top" alt="Código Fonte PNG"
+                        <img src="assets/img/Code-Optimization.png" class="card-img-top" alt="Código Fonte PNG"
                             title="Front-end Tricks">
                         <div class="card-body">
                             <h2 class="card-title pb-4">Front-end Tricks</h2>
@@ -238,7 +256,7 @@
     </main>
     <!-- SKILLS -->
 
-    <section class="my-5 text-light" id="skills">
+    <article class="my-5 text-light" id="skills">
         <div class="row py-5">
             <div class="col-lg-12">
                 <div class="skills-text mx-auto">
@@ -285,17 +303,17 @@
                 </div>
             </div>
         </div>
-    </section>
+    </article>
 
     <!-- Vídeo Nova Trilha -->
     <h2 class="h2">Pitch Nova Trilha</h2>
-    <div class="embed-responsive embed-responsive-21by9 py-5">
+    <div class="embed-responsive embed-responsive-21by9 py-5" id="pitch">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6JY0n-GCaxw" allow="accelerometer"
             frameborder="0" allowfullscreen></iframe>
     </div>
 
     <!-- Footer Top -->
-    <article class="container-fluid py-5 text-light footer_top">
+    <section class="container-fluid py-5 text-light footer_top">
         <div class="row py-5">
 
             <div class="col-sm-12 col-lg-6">
@@ -325,7 +343,7 @@
                 </a>
             </div>
         </div>
-    </article>
+    </section>
 
     <!-- Button Scroll top page -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">
