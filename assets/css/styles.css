@@ -29,18 +29,16 @@ ul {
     text-decoration: none;
 }
 
-nav,
 .footer_top {
-    background-image: url('../img/blue2.jpg');
-    background-repeat: repeat;
+    background-image: url('../img/bg-blue2.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
 .navbar-brand {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-
+    font-size: 25px;
 }
 
 .navbar-collapse {
@@ -48,7 +46,9 @@ nav,
 }
 
 .nav-item a:hover {
-    border-bottom: 2px solid;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    border-bottom: 1px solid whitesmoke;
     filter: drop-shadow(5px 5px 30px #666);
 }
 
@@ -69,16 +69,28 @@ a:hover {
     color: white;
 }
 
+/* Sobre Mim */
+
+.about_me {
+    width: 60%;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin: auto;
+    display: block;
+}
+
+.recode {
+    width: 40%;
+    border-radius: 2px;
+}
+
 /* Cards */
 
 .card {
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
-    background-position: center;
-    background-size: cover;
-    background-clip: border-box;
     border: 1px solid whitesmoke;
+    background-color: #f8f9fa;
 }
 
 .card img {
@@ -87,9 +99,9 @@ a:hover {
     border-radius: 10px;
 }
 
-.card-title {
-    filter: drop-shadow(5px 5px 30px #666);
-    color: whitesmoke;
+.card-title,
+.card-text {
+    color: black;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -217,7 +229,7 @@ a:hover {
     margin: auto;
     outline: none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    background-image: url("../img/blue2.jpg");
+    background-image: url("../img/bg-blue2.jpg");
     background-position: center;
     background-size: cover;
     background-clip: border-box;
