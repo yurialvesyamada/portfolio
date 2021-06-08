@@ -94,7 +94,7 @@ a:hover {
 }
 
 .card img {
-    width: 25vh;
+    width: 45%;
     margin: 8% auto;
     border-radius: 10px;
 }
@@ -220,12 +220,13 @@ a:hover {
 
 #myBtn {
     text-align: center;
+    justify-items: center;
     display: none;
     position: fixed;
-    bottom: 4%;
-    right: 2%;
+    bottom: 2%;
+    right: 1%;
     z-index: 99;
-    width: 5%;
+    width: 4%;
     margin: auto;
     outline: none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -235,61 +236,40 @@ a:hover {
     background-clip: border-box;
     color: white;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 6%;
-    border: 2px solid whitesmoke;
+    padding: 1vw;
+    border-radius: 10%;
+    border: 1px solid whitesmoke;
 }
 
 #myBtn:hover {
     color: lightgrey;
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1150px) {
     #myBtn {
-        width: 6vw;
+        width: 5%;
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 850px) {
     #myBtn {
-        width: 8vw;
+        width: 2.6rem;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 610px) {
     #myBtn {
-        width: 10vw;
-        bottom: 10%;
+        width: 2.6rem;
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 510px) {
     #myBtn {
-        width: 14%;
-        bottom: 18%;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    #myBtn {
-        width: 17%;
-        bottom: 14%;
-        right: 3%;
-    }
-
-    .card img {
-        width: 25vh;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        border-radius: 5%;
-    }
-}
-
-@media screen and (max-width: 340px) {
-    #myBtn {
-        width: 20%;
-        bottom: 16%;
-        right: 3%;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 1%;
+        bottom: 2%;
+        right: 2%;
     }
 }
