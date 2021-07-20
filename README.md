@@ -1,5 +1,7 @@
 # Portfólio Yuri Alves Yamada - Em desenvolvimento
 
+ [Acesse o Portfólio] (https://yurialvesyamada.github.io/infotec-react2.0/).
+
 ## Sessões
 
 ### Sobre Mim: Aqui descrevo minha ultima experiência profissional resumida com desenvolvimento de software
