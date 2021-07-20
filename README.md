@@ -1,6 +1,6 @@
 # Portfólio Yuri Alves Yamada - Em desenvolvimento
 
- [Acesse o Portfólio] (https://yurialvesyamada.github.io/infotec-react2.0/).
+ [Acesse o Portfólio](https://yurialvesyamada.github.io/infotec-react2.0/).
 
 ## Sessões
 
