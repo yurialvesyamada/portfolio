@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,7 +10,7 @@
 
 body {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font: normal normal 1em 'Open Sans', sans-serif;
 }
 
 html {
@@ -17,7 +19,7 @@ html {
 }
 
 footer {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.822);
 }
 
 iframe {
@@ -37,16 +39,12 @@ ul {
     text-decoration: none;
 }
 
-.footer_top {
-    background-image: url('../img/bg-blue2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+.navbar {
+    background-color: #5DAFCA;
 }
 
 .navbar-brand {
-    font-size: 25px;
+    font: italic 300 1.8em 'Ubuntu', sans-serif;
 }
 
 .navbar-collapse {
@@ -61,7 +59,11 @@ ul {
 }
 
 .navbar-nav {
-    font-size: 20px;
+    font: normal 600 1.4em 'Open Sans', sans-serif;
+}
+
+.footer_top {
+    background-color: #396C7D;
 }
 
 .redes a:hover {
@@ -90,6 +92,11 @@ a:hover {
 .recode {
     width: 45%;
     border-radius: 3px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.experience_style {
+    text-align: justify;
 }
 
 .experience {
@@ -113,12 +120,9 @@ a:hover {
     border-radius: 10px;
 }
 
-
 .card-title {
-    font-weight: bolder;
-    /*   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font: italic 400 2.2em 'Roboto', sans-serif;
 }
-
 
 .card a {
     color: black !important;
@@ -143,7 +147,7 @@ a:hover {
 
 .skills-text {
     width: 80%;
-    font-size: 20px;
+    font: normal 300 1.4em 'Roboto', sans-serif;
 }
 
 .skills-list {
@@ -230,62 +234,26 @@ a:hover {
     background-color: #00ADEF;
 }
 
-/* Scroll Button */
-
 #myBtn {
-    text-align: center;
-    justify-items: center;
     display: none;
     position: fixed;
-    bottom: 2%;
-    right: 1%;
+    bottom: 20px;
+    right: 20px;
     z-index: 99;
-    width: 4%;
-    margin: auto;
+    font: normal 400 1.2em 'Open Sans', sans-serif;
+    border: none;
     outline: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    background-image: url("../img/bg-blue2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-clip: border-box;
-    color: white;
+    background-color: rgba(85, 85, 85, 0.596);
+    color: rgba(255, 255, 255, 0.842);
     cursor: pointer;
-    padding: 1vw;
-    border-radius: 10%;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     border: 1px solid whitesmoke;
 }
 
 #myBtn:hover {
-    color: lightgrey;
-    border: 1px solid lightgrey;
-}
-
-@media screen and (max-width: 1150px) {
-    #myBtn {
-        width: 5%;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    #myBtn {
-        width: 2.6rem;
-    }
-}
-
-@media screen and (max-width: 610px) {
-    #myBtn {
-        width: 2.6rem;
-    }
-}
-
-@media screen and (max-width: 510px) {
-    #myBtn {
-        width: 2.5rem;
-        height: 2.5rem;
-        padding: 1%;
-        bottom: 2%;
-        right: 2%;
-    }
+    background-color: #5DAFCA;
 }
 
 .btn {

@@ -1,13 +1,9 @@
-// Skills Bars
-
 $('.skill-percent').each(function () {
   $(this).animate({
     width: $(this).attr('data-percent')
   }, "fast");
 });
 
-
-//Get the button
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button

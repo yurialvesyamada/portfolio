@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="shortcut icon" href="assets/favicon/developer.ico" type="image/x-icon">
     <title>Portfólio</title>
 </head>
 
 <body>
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-light py-4 bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light py-4">
         <div class="container">
             <a class="navbar-brand" href="index.html">Yuri Alves Yamada</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -100,8 +101,8 @@
 
                 <article class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <h2 class="mb-5">Yuri Alves Yamada</h2>
-                    <!--  <h5 class="py-3">FullStack - Front-End Developer</h5> -->
-                    <p class="mb-5">Desenvolvedor, apaixonado por tecnologia, estudante de Programação e Hardware em
+                    <p class="mb-5 experience_style">Desenvolvedor, apaixonado por tecnologia, estudante de Programação
+                        e Hardware em
                         busca de novos
                         desafios e oportunidades. Com grande interesse e comprometimento em se desenvolver
                         profissionalmente buscando sempre entregar soluções eficientes, de qualidade e inovação
@@ -111,7 +112,7 @@
                     </p>
 
                     <div class="row mx-auto experience">
-                        <h5 class="py-4">Experiência Profissional</h5>
+                        <h4 class="py-4">Experiência Profissional</h4>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
                             <a href="https://recode.org.br/" target="_blank" rel="noopener noreferrer">
                                 <img src="./assets/img/recode2.jpeg" alt="Recode" title="Recode" class="recode">
@@ -246,7 +247,7 @@
             <div class="col-lg-12">
                 <div class="skills-text mx-auto">
                     <header>
-                        <h1 class="pb-5">SKILLS</h1>
+                        <h1 class="pb-5">Skills</h1>
                     </header>
                     <dl class="skills-list">
                         <h2 class="pb-4">Front-End</h2>
@@ -291,7 +292,7 @@
     </article>
 
     <!-- Vídeo Nova Trilha -->
-    <h2 class="h2">Pitch Nova Trilha</h2>
+    <h2>Pitch Nova Trilha</h2>
     <div class="embed-responsive embed-responsive-21by9 py-5" id="pitch">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6JY0n-GCaxw" allow="accelerometer"
             frameborder="0" allowfullscreen></iframe>
@@ -330,30 +331,27 @@
         </div>
     </section>
 
-    <!-- Button Scroll top page -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-        <i class="fas fa-chevron-up fa-1x"></i>
-    </button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <footer class="py-3 text-light">
         <a href="https://www.linkedin.com/in/yuri-alves-yamada-804076188/" target="_blank"
             rel="noopener noreferrer">Yuri
             Alves Yamada</a> | © 2021 Portfólio. Todos os Direitos Reservados.
     </footer>
+
+    <!-- Development version -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+    <!-- Production version -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js" crossorigin="anonymous"></script>
+
 </body>
-
-<!-- Development version -->
-<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
-
-<!-- Production version -->
-<script src="https://unpkg.com/@popperjs/core@2"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
-    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
-</script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
-<script src="./assets/js/index.js" crossorigin="anonymous"></script>
-
 
 </html>
