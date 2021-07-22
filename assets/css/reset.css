@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;0,700;1,300;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font: normal normal 1em 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+iframe {
+    width: 95%;
+    height: 100vh;
+}
+
+ul {
+    padding-left: 0;
+}
+
+a,
+li,
+ul {
+    color: whitesmoke !important;
+    list-style-type: none;
+    text-decoration: none;
+}
